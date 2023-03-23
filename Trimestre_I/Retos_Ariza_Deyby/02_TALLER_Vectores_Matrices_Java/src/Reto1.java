@@ -21,12 +21,6 @@ public class Reto1 {
             }
     // El ciclo asigna los valores del array en la variable valorNumero, luego se introduce al array con el número de iteración del ciclo.
     // The cicle asigns values of the array in the variable valorNumero, then introduces it to the array with the number of iteration of the cicle.
-            System.out.println("Los números ingresados fueron: ");        
-                while (contadorNoMultiplos<cantNumeros) 
-                {
-                    System.out.println(num[contadorNoMultiplos]);
-                    contadorNoMultiplos++;
-                }
                     while (contadorMultiplos < cantNumeros) 
                     {
                         if (num[contadorMultiplos] % 2 == 0)
@@ -35,8 +29,6 @@ public class Reto1 {
                         } 
                         contadorMultiplos++;
                     }
-    // Este ciclo imprime en pantalla los valores introducidos anteriormente en el array
-    //This cicle prints on screen the values introduced before in the array.
         System.out.println("En los números ingresados, hay " + mult + " múltiplos de dos");
             if(contadorMultiplos>0)
             {
