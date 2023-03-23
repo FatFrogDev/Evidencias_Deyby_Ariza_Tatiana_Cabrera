@@ -35,6 +35,11 @@ public class Reto2{
                 primerCompetidor = nadadores[j];
             }    
         }
+                for (int i = 0; i < cantNadadores; i++) 
+        {
+            System.out.println("Competidor " + (i+1));
+            System.out.println("Nombre: " + nadadores[i] + ", segundos: " + segundos[i]);    
+        }
         System.out.println("El primer competidor fue " + primerCompetidor + " y tardó " + primerSegundos + " segundos.");
         get.close();
     }
