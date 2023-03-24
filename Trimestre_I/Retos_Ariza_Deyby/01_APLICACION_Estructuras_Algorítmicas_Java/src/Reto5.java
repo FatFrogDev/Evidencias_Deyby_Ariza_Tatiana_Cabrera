@@ -4,7 +4,7 @@ public class Reto5 {
     {
         int numero = (int)(Math.random() * 3) + 1, eleccion=0, vidas=3, continuar=0, i=1; 
         Scanner scan = new Scanner(System.in);
-        while(vidas>=1){    
+        while(vidas>0){    
         System.out.println("Bienvenido al juego de piedra papel o tijera, para jugar elige:");
         System.out.println("1. Piedra");
         System.out.println("2. Papel");
