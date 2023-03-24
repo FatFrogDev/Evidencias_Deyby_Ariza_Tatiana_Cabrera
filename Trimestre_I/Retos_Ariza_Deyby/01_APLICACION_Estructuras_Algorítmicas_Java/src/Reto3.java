@@ -1,10 +1,7 @@
-import java.util.*;
+import java.util.Scanner;
 public class Reto3{
     public static void main(String[] args) {
-        // cara = 1
-        // sello = 2
-        // El código es el juego del carisellazo, donde usuario asigna eleccion (1.Cara,2-.Sello)
-        // y numero cumple el rol de la moneda en vida real, genera aletoriamente un resultado
+
         int numero = (int)(Math.random() * 2) + 1, eleccion=0; 
         Scanner scan = new Scanner(System.in);    
         System.out.println("Bienvenido al juego del carisellazo, para elegir cara o sello digita");
@@ -17,6 +14,8 @@ public class Reto3{
         }   
         else
         {
+        // cara = 1
+        // sello = 2
             if (eleccion==1 && numero ==1)
         {
             System.out.println("Has elegido cara, y ha salido cara. ¡Ganaste!");

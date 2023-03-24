@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Reto1 {
     public static void main(String[] args) {
     // Declarar variables - Declare variables.
-        int cantNumeros=0, i=0, valorNumero=0,contadorMultiplos=0, contadorNoMultiplos=0,  contadorFinal=0, mult=0;
+        int cantNumeros=0, i=0, valorNumero=0,contadorMultiplos=0, contadorFinal=0, mult=0;
     // Instancia de objetos - Instantiate objects.
         Scanner get = new Scanner(System.in);
         System.out.println("Bienvenido, digita cuantos números deseas examinar");

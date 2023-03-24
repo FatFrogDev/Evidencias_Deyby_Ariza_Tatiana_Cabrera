@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Reto2{
     public static void main(String[] args)
     {
-        int cantNadadores, segundosNadador, ultimoSegundos=0, primerSegundos=0;
+        int cantNadadores, segundosNadador, primerSegundos=0;
         String nombreNadador, primerCompetidor="";
     //  Declarar variables - Declare variables.
         Scanner get = new Scanner(System.in);
@@ -29,24 +29,16 @@ public class Reto2{
     // Catch the inner values of each array, nadadores (names) and seconds.
         for(int j=0;j<cantNadadores;j++)
         {
-            if(ultimoSegundos<segundos[j])
+            if(primerSegundos<segundos[j])
             {
-                ultimoSegundos=segundos[j];
+                primerSegundos=segundos[j];
             }
-        }
-        primerSegundos=ultimoSegundos;
-            for(int j= 0; j<cantNadadores;j++)
-            {
                 if(primerSegundos>segundos[j])
                 {
                     primerSegundos = segundos[j];
                     primerCompetidor = nadadores[j];
                 }    
             }
-    // El ciclo anidado hace dos cosas; Primero, toma el mayor valor de segundos (segundos) a una variable, luego se compara en el segundo ciclo con el operador de comparación menos
-    // Por lo tanto, obtenemos el valor del tiempo más bajo en la matriz y el nombre (Ganador).
-    // The cicle anidated do two things; First, it takes the higher value of segundos (seconds) to a variable, then itself its compared in the second cicle with minus comparation operator
-    // Therefore we get the value of the lowest time on the array and the name(Winner).
         for (int i = 0; i < cantNadadores; i++) 
         {
             System.out.println("Competidor " + (i+1));

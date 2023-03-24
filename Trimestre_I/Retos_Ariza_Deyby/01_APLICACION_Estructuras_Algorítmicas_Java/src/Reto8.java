@@ -1,9 +1,9 @@
-import java.util.*;
+import java.util.Scanner;
 public class Reto8{
     public static void main(String[] args) {
-        Scanner get = new Scanner(System.in);
         int continuar=0, victorias1=0, victorias2=0, vidas1=3, vidas2=3;
         String nombre1="", nombre2="";
+        Scanner get = new Scanner(System.in);
         System.out.println("Bienvenido al juego de dados para dos usuarios");
         System.out.println("Ingresa el nombre del usuario 1");
         nombre1 = get.next();
