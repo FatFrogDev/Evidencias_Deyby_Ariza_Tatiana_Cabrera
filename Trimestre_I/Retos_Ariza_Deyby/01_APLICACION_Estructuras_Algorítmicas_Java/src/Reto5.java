@@ -70,7 +70,7 @@ public class Reto5 {
         continuar = scan.nextInt();
         if(continuar==1)
         {
-            //vidas=vidas;
+            continuar=1;
         }
         else if (continuar==2)
         {
