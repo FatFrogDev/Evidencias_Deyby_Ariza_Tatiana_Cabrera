@@ -7,7 +7,7 @@ public class Inicio
         Persona perso = new Persona();
         perso.pedirDatos();
         perso.mostrarPersona();
-        perso.calcularImc();
         perso.mayorEdad();
+        perso.calcularImc();
     }
 }

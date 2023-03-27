@@ -12,7 +12,7 @@ public class Inicio_2
         perso.pedirDatos();
         perso.mostrarPersona();
         perso.mayorEdad();
-        resultado=perso.calcularImc();
+        resultado=perso.calcularImc2();
         if (resultado < 20)
         {
             System.out.println("El peso esta por debajo de lo ideal, su imc es: " + resultado);

@@ -106,8 +106,26 @@ public class Persona
     public double calcularImc()
     {    
         pesoActual = ((peso)/(Math.pow((estatura), 2)));
+        if (pesoActual < 20)
+        {
+            System.out.println("El peso esta por debajo de lo ideal, su imc es: " + pesoActual);
+        }
+            else if (pesoActual >= 20 && pesoActual <= 25) 
+            {
+            System.out.println("El peso es ideal, su imc es: " + pesoActual);
+            } 
+                else if (pesoActual > 25)
+                {
+                    System.out.println("Tienes sobre peso, tu imc es: " + pesoActual);
+                }
         return pesoActual;
     }
+    public double calcularImc2()
+    {    
+        pesoActual = ((peso)/(Math.pow((estatura), 2)));
+        return pesoActual;
+    }
+
     public void mayorEdad()
     {
         if(edad>=18)
