@@ -5,6 +5,71 @@ public class Persona_2
     private String nombres, apellidos, numDoc, tipoDoc, sexo;
     private int edad, peso;
     private double pesoActual, estatura;
+    public Persona_2(String _tipoDoc, String _numDoc, String _nombres, String _apellidos)
+    {
+        _tipoDoc=this.tipoDoc;
+        _numDoc=this.numDoc;
+        _nombres=this.nombres;
+        _apellidos=this.apellidos;
+    }
+    public Persona_2()
+    {
+
+    }
+    public String getNombres() {
+        return nombres;
+    }
+    public void setNombres(String nombres) {
+        this.nombres = nombres;
+    }
+    public String getApellidos() {
+        return apellidos;
+    }
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+    public String getNumDoc() {
+        return numDoc;
+    }
+    public void setNumDoc(String numDoc) {
+        this.numDoc = numDoc;
+    }
+    public String getTipoDoc() {
+        return tipoDoc;
+    }
+    public void setTipoDoc(String tipoDoc) {
+        this.tipoDoc = tipoDoc;
+    }
+    public String getSexo() {
+        return sexo;
+    }
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+    public int getEdad() {
+        return edad;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+    public int getPeso() {
+        return peso;
+    }
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+    public double getPesoActual() {
+        return pesoActual;
+    }
+    public void setPesoActual(double pesoActual) {
+        this.pesoActual = pesoActual;
+    }
+    public double getEstatura() {
+        return estatura;
+    }
+    public void setEstatura(double estatura) {
+        this.estatura = estatura;
+    }
     public void pedirDatos()
     {
         Scanner get = new Scanner(System.in);
