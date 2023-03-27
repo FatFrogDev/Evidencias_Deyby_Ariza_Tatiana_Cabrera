@@ -1,6 +1,6 @@
 package Salud;
 //import java.util.Scanner;
-public class Empleado extends Persona_2
+public class Empleado extends Persona
 {
         private String nombres, apellidos, tipoDoc, numDoc, cargo, departamento;
         private int valorHora, horasTrabajadas;

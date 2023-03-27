@@ -1,6 +1,6 @@
 package Principal;
 import java.util.Scanner;
-import Salud.Persona_2;
+import Salud.Persona;
 public class Inicio_2
 {   
 
@@ -8,7 +8,7 @@ public class Inicio_2
     {
         double resultado;
         Scanner get = new Scanner(System.in);
-        Persona_2 perso = new Persona_2();
+        Persona perso = new Persona();
         perso.pedirDatos();
         perso.mostrarPersona();
         perso.mayorEdad();
