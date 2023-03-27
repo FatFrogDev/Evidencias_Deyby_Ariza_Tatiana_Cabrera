@@ -31,7 +31,7 @@ public class Inicio_4
                 System.out.print("Digita una opción válida \n");
             break;
         }
-        System.out.println("¿Deseas seguir usando el programa?, 1. Si 2.  No");
+        System.out.print("¿Deseas seguir usando el programa?, 1. Si 2.  No \n");
         op = get.nextInt();
         if(op==1)
         {

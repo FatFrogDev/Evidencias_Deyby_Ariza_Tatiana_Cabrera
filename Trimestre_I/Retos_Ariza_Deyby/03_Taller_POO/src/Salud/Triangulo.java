@@ -15,13 +15,11 @@ public class Triangulo extends Figura
     }    
         public void calcularArea()
         {
-            try (Scanner get = new Scanner(System.in))
-            {
-                System.out.print("Ingresa la base \n");
-                base = get.nextFloat();
-                System.out.print("Ingresa la altura \n");
-                altura = get.nextFloat();
-            }
+            Scanner get = new Scanner(System.in);
+            System.out.print("Ingresa la base \n");
+            base = get.nextFloat();
+            System.out.print("Ingresa la altura \n");
+            altura = get.nextFloat();
             area=(base*altura)/2;
             System.out.print("La base del triángulo es: " + base + ", su altura es: " + altura + " y su área es: " + area + "\n");
         }

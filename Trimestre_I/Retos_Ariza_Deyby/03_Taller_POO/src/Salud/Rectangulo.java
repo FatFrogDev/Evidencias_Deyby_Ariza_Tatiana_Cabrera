@@ -11,19 +11,17 @@ public class Rectangulo extends Figura
     }
     public Rectangulo()
     {
-
+        // Crear método constructor vacío
     }
         public void calcularArea()
         {
-           try (Scanner get = new Scanner(System.in))
-        {
+            Scanner get = new Scanner(System.in);
             System.out.print("Digite la base del rectángulo \n");
             base = get.nextFloat();
             System.out.print("Digite el altura del rectángulo \n");
             altura = get.nextFloat();
-        }
             area = base*altura;
-            System.out.print("La base del rectángulo es: " + base + ", la altura es:" + altura + ", y el área es: " + area + "\n");
+            System.out.print("La base del rectángulo es: " + base + ", la altura es: " + altura + ", y el área es: " + area + "\n");
         }
 // GETTERS && SETTERS o métodos accesores.
 public float getBase() 

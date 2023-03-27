@@ -11,18 +11,16 @@ public class Circulo extends Figura
     }
     public Circulo()
     {
-
+        // Crear método constructor vacío
     }
     public void calcularArea()
     {
-        try (Scanner get = new Scanner(System.in))
-        {
+            Scanner get = new Scanner(System.in);
             System.out.print("Ingresa el radio del círculo \n");
             radio = get.nextDouble();
-        }
-        // El área del círculo es igual a Pi por Radio al cuadrado:
-        area = pi*(Math.pow(radio, 2));
-        System.out.print("El radio del círculo es: " + radio + ", y su área es: " + area + "\n");
+            // El área del círculo es igual a Pi por Radio al cuadrado:
+            area = pi*(Math.pow(radio, 2));
+            System.out.print("El radio del círculo es: " + radio + ", y su área es: " + area + "\n");
     }
 //GETTERS && SETTERS o métodos accesores
 public double getPi()
