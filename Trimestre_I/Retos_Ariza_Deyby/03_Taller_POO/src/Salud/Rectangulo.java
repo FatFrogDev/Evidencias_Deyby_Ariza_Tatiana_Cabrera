@@ -15,11 +15,13 @@ public class Rectangulo extends Figura
     }
         public void calcularArea()
         {
-           Scanner get = new Scanner(System.in);
+           try (Scanner get = new Scanner(System.in))
+        {
             System.out.print("Digite la base del rectángulo \n");
             base = get.nextFloat();
             System.out.print("Digite el altura del rectángulo \n");
             altura = get.nextFloat();
+        }
             area = base*altura;
             System.out.print("La base del rectángulo es: " + base + ", la altura es:" + altura + ", y el área es: " + area + "\n");
         }

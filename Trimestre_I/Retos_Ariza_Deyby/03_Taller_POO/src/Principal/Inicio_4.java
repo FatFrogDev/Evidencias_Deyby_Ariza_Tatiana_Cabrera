@@ -16,27 +16,14 @@ public class Inicio_4
         switch (opcion)
         {
             case 1:
-                // float base, altura;
-                // System.out.print("Ingresa la base del triángulo \n");
-                // base = get.nextFloat();
-                // System.out.print("Ingresa la altra el triángulo \n");
-                // altura = get.nextFloat();
                 Triangulo triangulo = new Triangulo();
                 triangulo.calcularArea();
             break;
             case 2:
-                // float baseRec, alturaRec;
-                // System.out.print("Ingresa la base del rectángulo \n");
-                // baseRec = get.nextFloat();
-                // System.out.print("Ingresa la altra el rectángulo \n");
-                // alturaRec = get.nextFloat();
                 Rectangulo rectangulo = new Rectangulo();
                 rectangulo.calcularArea();
             break;
             case 3:
-                // double radio;
-                // System.out.print("Ingresa el radio del círculo \n");
-                // radio = get.nextDouble();
                 Circulo circulo = new Circulo();
                 circulo.calcularArea();
             break;
