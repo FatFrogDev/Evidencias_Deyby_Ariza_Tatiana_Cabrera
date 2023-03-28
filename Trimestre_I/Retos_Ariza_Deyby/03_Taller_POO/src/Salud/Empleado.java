@@ -8,8 +8,8 @@ public class Empleado extends Persona
         private final double reteica=0.966; 
                 public Empleado(String _tipoDoc, String _numDoc, String _nombres, String _apellidos, String nombres,
                 String apellidos, String tipoDoc, String numDoc, String cargo, String departamento, int valorHora,
-                int horasTrabajadas, double honorarios) {
-            super(_tipoDoc, _numDoc, _nombres, _apellidos);
+                int horasTrabajadas, double honorarios){
+        super(_tipoDoc, _numDoc, _nombres, _apellidos);
             this.nombres = nombres;
             this.apellidos = apellidos;
             this.tipoDoc = tipoDoc;
@@ -20,6 +20,10 @@ public class Empleado extends Persona
             this.horasTrabajadas = horasTrabajadas;
             this.honorarios = honorarios;
         }
+            public Empleado()
+            {
+
+            }
 
                 public void mostrarEmpleado()
                 {
