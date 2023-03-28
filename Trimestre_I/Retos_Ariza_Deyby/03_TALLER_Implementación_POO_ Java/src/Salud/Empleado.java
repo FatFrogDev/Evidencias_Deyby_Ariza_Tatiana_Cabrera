@@ -64,79 +64,63 @@ public class Empleado extends Persona
                         return honorarios;
                     }
 //GETTERS && SETTERS
-public String getNombres() {
-    return nombres;
-}
-public void setNombres(String nombres)
-{
-    this.nombres = nombres;
-}
-    public String getApellidos()
-{
-    return apellidos;
-}
-public void setApellidos(String apellidos)
-{
-    this.apellidos = apellidos;
-}
-    public String getTipoDoc()
-{
-    return tipoDoc;
-}
-public void setTipoDoc(String tipoDoc)
-{
-    this.tipoDoc = tipoDoc;
-}
-public String getNumDoc()
-{
-    return numDoc;
-}
-public void setNumDoc(String numDoc)
-{
-    this.numDoc = numDoc;
-}
-public String getCargo()
-{
-    return cargo;
-}
-public void setCargo(String cargo)
-{
-    this.cargo = cargo;
-}
-public String getDepartamento()
-{
-    return departamento;
-}
-public void setDepartamento(String departamento)
-{
-    this.departamento = departamento;
-}
-public double getValorHora()
-{
-    return valorHora;
-}
-public void setValorHora(int valorHora)
-{
-    this.valorHora = valorHora;
-}
-public double getHorasTrabajadas()
-{
-    return horasTrabajadas;
-}
-public void setHorasTrabajadas(int horasTrabajadas) 
-{
-    this.horasTrabajadas = horasTrabajadas;
-}
-public double getHonorarios() 
-{
-    return honorarios;
-}
-public void setHonorarios(double honorarios)
-{
-    this.honorarios = honorarios;
-}
-public double getReteica() {
-    return reteica;
-}
+                    public String getNombres() {
+                        return nombres;
+                    }
+                    public void setNombres(String nombres) {
+                        this.nombres = nombres;
+                    }
+                    public String getApellidos() {
+                        return apellidos;
+                    }
+                    public void setApellidos(String apellidos) {
+                        this.apellidos = apellidos;
+                    }
+                    public String getTipoDoc() {
+                        return tipoDoc;
+                    }
+                    public void setTipoDoc(String tipoDoc) {
+                        this.tipoDoc = tipoDoc;
+                    }
+                    public String getNumDoc() {
+                        return numDoc;
+                    }
+                    public void setNumDoc(String numDoc) {
+                        this.numDoc = numDoc;
+                    }
+                    public String getCargo() {
+                        return cargo;
+                    }
+                    public void setCargo(String cargo) {
+                        this.cargo = cargo;
+                    }
+                    public String getDepartamento() {
+                        return departamento;
+                    }
+                    public void setDepartamento(String departamento) {
+                        this.departamento = departamento;
+                    }
+                    public int getValorHora() {
+                        return valorHora;
+                    }
+                    public void setValorHora(int valorHora) {
+                        this.valorHora = valorHora;
+                    }
+                    public int getHorasTrabajadas() {
+                        return horasTrabajadas;
+                    }
+                    public void setHorasTrabajadas(int horasTrabajadas) {
+                        this.horasTrabajadas = horasTrabajadas;
+                    }
+                    public double getHonorarios() {
+                        return honorarios;
+                    }
+                    public void setHonorarios(double honorarios) {
+                        this.honorarios = honorarios;
+                    }
+                    public double getReteica() {
+                        return reteica;
+                    }
+
                     
 }
