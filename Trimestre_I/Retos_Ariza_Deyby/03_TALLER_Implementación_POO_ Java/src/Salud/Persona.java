@@ -103,6 +103,7 @@ public class Persona
         System.out.print("Peso: " + peso + "\n");
         System.out.print("Edad: " + edad + "\n");
     }
+    // Método para calcular el IMC en Inicio.java (sin valor de retorno).
     public void calcularImc()
     {    
         pesoActual = ((peso)/(Math.pow((estatura), 2)));
@@ -119,6 +120,7 @@ public class Persona
                     System.out.println("Tienes sobre peso, tu imc es: " + pesoActual);
                 }
     }
+        // Método para calcular el IMC en Inicio_2.java (con valor de retorno).
     public double calcularImc2()
     {    
         pesoActual = ((peso)/(Math.pow((estatura), 2)));
