@@ -6,14 +6,9 @@ public class Empleado extends Persona
         private int valorHora, horasTrabajadas;
         private double honorarios; 
         private final double reteica=0.966; 
-                public Empleado(String _tipoDoc, String _numDoc, String _nombres, String _apellidos, String nombres,
-                String apellidos, String tipoDoc, String numDoc, String cargo, String departamento, int valorHora,
+                public Empleado(String _tipoDoc, String _numDoc, String _nombres, String _apellidos, String cargo, String departamento, int valorHora,
                 int horasTrabajadas, double honorarios){
         super(_tipoDoc, _numDoc, _nombres, _apellidos);
-            this.nombres = nombres;
-            this.apellidos = apellidos;
-            this.tipoDoc = tipoDoc;
-            this.numDoc = numDoc;
             this.cargo = cargo;
             this.departamento = departamento;
             this.valorHora = valorHora;
@@ -52,9 +47,9 @@ public class Empleado extends Persona
                     System.out.print("El num de doc es: " + getNumDoc() + "\n");
                     System.out.print("Los nombres son: " + getNombres() + "\n");
                     System.out.print("Los apellidos son: " + getApellidos() + "\n");
-                    System.out.print("El cargo es: " + cargo + "\n");
-                    System.out.print("El departamento es: " + departamento + "\n");
-                    System.out.print("Las horas trabajadas son: " + horasTrabajadas + "\n");
+                    System.out.print("El cargo es: " + getCargo() + "\n");
+                    System.out.print("El departamento es: " + getDepartamento() + "\n");
+                    System.out.print("Las horas trabajadas son: " + getHorasTrabajadas() + "\n");
                     System.out.print("El valor a pagar es de: " + calcularHonorarios() + "\n");
                 }
                     public double calcularHonorarios()

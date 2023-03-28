@@ -103,7 +103,7 @@ public class Persona
         System.out.print("Peso: " + peso + "\n");
         System.out.print("Edad: " + edad + "\n");
     }
-    public double calcularImc()
+    public void calcularImc()
     {    
         pesoActual = ((peso)/(Math.pow((estatura), 2)));
         if (pesoActual < 20)
@@ -118,7 +118,6 @@ public class Persona
                 {
                     System.out.println("Tienes sobre peso, tu imc es: " + pesoActual);
                 }
-        return pesoActual;
     }
     public double calcularImc2()
     {    
