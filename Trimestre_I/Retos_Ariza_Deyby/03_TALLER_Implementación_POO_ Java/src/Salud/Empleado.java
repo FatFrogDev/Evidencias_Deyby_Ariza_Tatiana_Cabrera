@@ -1,5 +1,5 @@
 package Salud;
-//import java.util.Scanner;
+import java.util.Scanner;
 public class Empleado extends Persona
 {
         private String nombres, apellidos, tipoDoc, numDoc, cargo, departamento;
@@ -24,7 +24,28 @@ public class Empleado extends Persona
             {
 
             }
-
+            
+            public void pedirDatos()
+            {      
+                Scanner get = new Scanner(System.in);
+                System.out.print("Ingresa los nombres\n");
+                nombres = get.next(); 
+                System.out.print("Ingresa los apellidos\n");
+                apellidos = get.next();  
+                System.out.print("Ingresa el tipo de documento\n");
+                tipoDoc = get.next();
+                System.out.print("Ingresa el número de documento\n");
+                numDoc = get.next();
+                System.out.print("Ingresa el cargo \n");
+                cargo = get.next();
+                System.out.print("Ingresa el departamento \n");
+                departamento = get.next();
+                System.out.print("Ingresa las horas trabajadas \n");
+                horasTrabajadas=get.nextInt();
+                System.out.print("Ingresa el valor por hora trabajada \n");
+                valorHora=get.nextInt();
+                get.close();
+            }
                 public void mostrarEmpleado()
                 {
                     System.out.print("El tipo de doc es: " + getTipoDoc() + "\n");
