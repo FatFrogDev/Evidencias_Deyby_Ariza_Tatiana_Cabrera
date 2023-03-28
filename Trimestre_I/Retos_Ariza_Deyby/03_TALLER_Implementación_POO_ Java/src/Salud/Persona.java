@@ -5,12 +5,11 @@ public class Persona
     private String nombres, apellidos, numDoc, tipoDoc, sexo;
     private int edad, peso;
     private double pesoActual, estatura;
-    public Persona(String _tipoDoc, String _numDoc, String _nombres, String _apellidos)
+    public Persona(String tipoDoc, String numDoc, String nombres, String apellidos)
     {
-        _tipoDoc=this.tipoDoc;
-        _numDoc=this.numDoc;
-        _nombres=this.nombres;
-        _apellidos=this.apellidos;
+        tipoDoc=this.tipoDoc;
+        numDoc=this.numDoc;
+        apellidos=this.apellidos;
     }
     public Persona()
     {
