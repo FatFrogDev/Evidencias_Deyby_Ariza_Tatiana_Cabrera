@@ -2,38 +2,51 @@ package BolsilloDigital;
 import java.util.Scanner;
 public class Usuario
 {
+    // Creamos los atributos para la clase usuario
     private String nombre;
     private String email;
     private String pass;
     private int banco;
+    // Método constructor vacío para generar el objeto en ejecución.
+    public Usuario()
+    {
 
-    public String getNombre() {
+    }
+    // Getters & Setters
+    public String getNombre()
+    {
         return nombre;
     }
-    public void setNombre(String nombre) {
+    public void setNombre(String nombre)
+    {
         this.nombre = nombre;
     }
     public String getEmail() {
         return email;
     }
-    public void setEmail(String email) {
+    public void setEmail(String email)
+    {
         this.email = email;
     }
-    public String getPass() {
+    public String getPass()
+    {
         return pass;
     }
-    public void setPass(String pass) {
+    public void setPass(String pass)
+    {
         this.pass = pass;
     }
     public int getBanco() {
         return banco;
     }
-    public void setBanco(int banco) {
+    public void setBanco(int banco)
+    {
         this.banco = banco;
     }
+    // Con este método verificamos el inicio de sesión.
     public int iniciarSesion()
-    {
-        int banco;
+    { 
+        // Definimos email y pass, variables usadas para asignar con un set a la clase.
         String email, pass;
         String email1 = "email@example.com";
         String pass1 = "1234";
@@ -46,6 +59,7 @@ public class Usuario
         email = get.next();
         System.out.print("Ingresa tu contraseña\n");
         pass = get.next();
+        // Definimos según la cuenta
         if(email.equals(email1) && pass.equals(pass1))
         {
             setEmail(email1);
@@ -60,28 +74,13 @@ public class Usuario
             setPass(pass2);
             setBanco(2);
         }
+        // Arrojamos exepción para el inicio de sesión.
         else
         {
             System.out.print("Error, verifica tus credenciales.");
             setBanco(0);
         }
+        // Valor de retorno. Servirá para identificar cual bolsillo digital usaremos.
         return getBanco();
-    }
-    public boolean verificarSesion()
-    {
-        boolean verificacion=false;
-        if (banco==1)
-        {
-            verificacion=true;
-        }
-        else if(banco==2)
-        {
-            verificacion=true;
-        }
-        else
-        {
-            verificacion=false;
-        }
-        return verificacion;
     }
 }
