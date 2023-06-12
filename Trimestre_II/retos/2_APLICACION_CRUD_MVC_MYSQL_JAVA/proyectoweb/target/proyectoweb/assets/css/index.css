@@ -1,0 +1,557 @@
+*
+{
+    font-family: 'Helvetica';
+}
+.thead-usu 
+{
+text-align: center;
+align-items: center;
+justify-content: center;
+padding:0.5%;
+background-color: #131240 !important;
+}
+.navbar
+{
+    padding: 1.5rem 3rem;
+    background-color:#000000 !important;
+}
+#navbar-nequi
+{
+    background-color:#131240 !important;
+}
+.table-nequi
+{   
+        --bs-table-bg: #131240 !important;
+        --bs-table-striped-bg: #2c3034;
+        --bs-table-striped-color: #fff;
+        --bs-table-active-bg: #373b3e;
+        --bs-table-active-color: #fff;
+        --bs-table-hover-bg: #323539;
+        --bs-table-hover-color: #fff;
+        color: #fff;
+        border-color: #373b3e;
+}
+.table-davip
+{
+    --bs-table-bg: #000000 !important;
+    --bs-table-striped-bg: #2c3034;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: #F2F2F2;
+    border-color: #373b3e;
+}
+.email-table-nequi
+{
+    font-family: 'Arial';
+    font-size: 110%;
+    width: 70%;
+    height: 110%;
+    margin: 1.5%;
+    padding: 1%;
+    border: 1px solid #78778C;
+    border-radius: 5px;
+    color: #F2F2F2 !important;
+    background-color: transparent;
+}
+.email-table-davip
+{
+    font-family: 'Arial';
+    font-size: 110%;
+    width: 70%;
+    height: 110%;
+    margin: 1.5%;
+    padding: 1%;
+    border: 1px solid #78778C;
+    border-radius: 5px;
+    color:#F2F2F2 !important;
+    background-color: transparent;
+}
+.navbar-collapse
+{
+    justify-content:space-between;
+}
+.nav-title
+{
+    color:#F2F2F2 !important;
+}
+.nav-link
+{
+    color: #ffffff;
+    font-size: 145%;
+}
+.nav-link:hover
+{
+    color:#F2F2F2;
+}
+.nav-link::after
+{
+    color:#F23078;
+    text-decoration: none;
+}
+.nav-link:focus
+{
+    color: #fefefe;
+    text-decoration: underline;
+}
+.nav-title
+{
+    color:#F2F2F2;
+}
+.nav-title:focus
+{
+    color:#F2F2F2;
+    text-decoration: none;
+}
+.nav-title:hover
+{
+    color:#F2F2F2;
+    text-decoration: none;
+}
+.main-title
+{
+    color:#ff0000;
+    font-size: 170%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.card
+{
+    margin: 15% 5%;
+    border:1px solid #131240;
+    border-radius: 5px;
+    padding: 2%;
+}
+.subtitle
+{
+    display:inline-block;
+    font-size: 120%;
+    color:#131240;
+}
+.text-content
+{
+    color:#ff0000;
+}
+.card-img-top
+{
+    width: 84px;
+    height: 84px;
+    margin-top: 10%;
+}
+.card-btn-nequi
+{
+    color:#F2F2F2;
+    background-color: #131240;
+    margin-top: 1.5%;
+}
+.card-btn-nequi:hover
+{
+    color:#F2F2F2;
+    background-color: #78778C;
+}
+.container-cards
+{
+    display: flex;
+}
+.card-title
+{
+    font-size: 160%;
+    text-align: start;
+    color:#ff0000;
+}
+.card-text
+{
+    font-size: 110%;
+    text-align: start;
+    color:#131240;
+}
+.card-btn
+{
+    color:#F2F2F2;
+    background-color: #000000;
+    margin-top: 1.5%;
+}
+.card-btn:hover
+{
+    color:#F2F2F2;
+    background-color: #78778C;
+}
+.card-btn:active, .card-btn:focus
+{
+    color:#F2F2F2;
+    background-color: #000000;
+    box-shadow: none;
+}
+.container-login
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5%;
+    margin-top: 5%;
+    border-radius: 15px;
+    border:1px solid #000000;
+    flex-direction: column;
+    background-color: #040404;
+}
+.container-login-title
+{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 200%;
+    color:#F2F2F2;
+}
+.container-login-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+}
+.label-login-form
+{
+    margin: 2%;
+    font-size: 140%;
+    color:#F2F2F2;
+}
+
+.container-login input[type=email], input[type=password], input[type=text], input[type=number]
+{
+    font-family: 'Arial';
+    font-size: 110%;
+    width:  70%;
+    height: 110%;
+    margin: 1.5%;
+    padding: 1%;
+    border:1px solid #78778C;
+    border-radius: 5px;
+    color:#F2F2F2 !important;
+    background-color: transparent;
+}
+.button-login
+{
+    width: 50%;
+    height: 100%;
+    font-size: 120%;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: transparent;
+    border: 1px solid #78778C;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2.5% 1% 2.5% 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.button-login:hover
+{
+    background-color: #78778C
+}
+.container-login .a
+{
+    font-size: 120%;
+    color:#F2F2F2;
+    text-decoration: none;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.container-login-p
+{
+    color:#F2F2F2;
+}
+.container-login .a:hover
+{
+    color:#F2F2F2;
+    text-decoration: underline;
+    margin-top: 1.5%;
+    margin-bottom:  1.5%;
+}
+.container-login wt
+{
+    font-size: 100%;
+    width: 72%;
+    height: 100%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border:1px solid #78778C;
+    border-radius: 5px;
+    color:#F2F2F2;
+    background-color: transparent;
+}
+.container-login option
+{   
+    font-size: 100%;
+    width: 60%;
+    height: 120%;
+    border-radius: 2px;
+    color: #000000;
+    background-color: none;
+}
+.select-davip
+{
+    font-size: 100%;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border:1px solid #b5b5b5;
+    border-radius: 5px;
+    background-color: transparent;
+    color:#ffff;
+}
+.select-davip-edit
+{
+    background-color: transparent;
+    font-family: 'Arial';
+    font-size: 110%;
+    height: 110%;
+    margin: 1.5%;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 1.7%;
+    border: 1px solid #78778C;
+    background-color: transparent;
+    border-radius: 5px;
+    color:#F2F2F2;
+}
+.select-davip-edit option
+{
+    color:#000000;
+}
+.select-nequi
+{
+    font-size: 100%;
+    width: 70%;
+    height: 100%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border:1px solid #b5b5b5;
+    border-radius: 5px;
+    color:#ffff;
+    background-color: transparent;
+}
+.select-nequi-edit
+{
+        font-family: 'Arial';
+        font-size: 110%;
+        height: 110%;
+        margin: 1.5%;
+        margin-right: 1%;
+        margin-left: 1%;
+        padding: 1.7%;
+        border: 1px solid #78778C;
+        background-color: transparent;
+        border-radius: 5px;
+        color:#ffff;
+}
+.select-nequi-edit option
+{
+    color:#000000;
+}
+.footer
+{
+    position:static;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 15%;
+    background-color: #000000;
+}
+.footer .container
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    background-color: transparent;
+    padding: 3% 1% 3% 1%;
+    margin: 3% 10% 3% 10%;
+}
+.footer-header{
+    display: flex; 
+    width: 100%;
+    height: 10%;
+    background-color: none;
+    margin-top: 0;
+    
+}
+.footer .container-logo
+{
+    display: flex;
+    width: 60%;
+    height: 10%;
+    font-size: 200%;
+    font-weight: bold;
+    margin: 2% 4% 2% 4%;
+    color:#F2F2F2;
+}
+.footer .options 
+{
+    font-size: 130%;
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    padding: 2%;
+}
+.footer .options .a
+{  
+    font-size: 100%;
+    text-align: center;
+    padding: 1% 2% 1% 2%;
+}
+.footer .content
+{
+    display: grid;
+    flex-direction: row;
+    width: 100%;
+    height: 90%;
+    margin-top: 1%;
+    background-color: transparent;
+    padding: 1% 3% 1% 3%;
+}
+.footer .contact
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.footer .a
+{
+    font-weight: bold;
+    color:#F2F2F2;
+    text-decoration: none;
+}
+
+.footer .contact .title
+{
+    font-weight: bold;
+    font-size: 140%;
+    color:#ff0000;
+    margin: 0% 0% 1% 1%;
+}
+.footer .p
+{
+    font-weight: bold;
+    color:#ff0000;
+    text-decoration: none;
+}
+.footer .a:hover{color: #ffffff;text-decoration:underline;}
+.footer .p-content
+{
+    font-weight: bold;
+    color:#F2F2F2;
+    font-size: 120%;
+    margin: 0% 0% 1% 1%;
+}
+.footer .link
+{
+    font-weight: bold;
+    color:#F2F2F2;
+    text-decoration: none;
+    margin: 0% 0% 1% 1%;
+}
+.footer .link:hover{color:#F2F2F2;text-decoration: underline;}
+.footer .copy{font-size: 110%;margin-top: 15px; color:#F2F2F2; text-align: end;}
+/* CSS REPSONSIVE */
+@media screen and (max-width:767px)
+{
+    .navbar
+{
+    padding: 2.5rem 0.5rem;
+    background-color:#78778C;
+}
+.navbar-collapse
+{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 120%;
+}
+.footer-login
+{
+    margin-top:45%;
+}
+.card
+{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border:1px solid #131240;
+    padding: 2%;
+}
+.navbar-toggler-menu
+{
+    color: #F2F2F2;
+    font-size: 150%;
+}
+.navbar-toggler-icon
+{
+    color:#F2F2F2;
+    background-color: #78778C;
+}
+.container-login-2
+{
+    background-color:#131240 !important;"
+    margin-top: 17% !important;
+}
+.container-login-form
+{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    margin-top: 10%;
+    border-radius: 10px;
+    border:1px solid #78778C;
+    flex-direction: column;
+    background-color: #131240;
+}
+.container-login-content input[type=email], input[type=password], input[type=text]
+{
+    font-family: 'Arial';
+    font-size: 110%;
+    width:  100%;
+    height: 110%;
+    margin: 2%;
+    padding: 2%;
+    border:1px solid #78778C;
+    border-radius: 5px;
+    color:#F2F2F2;
+    background-color: transparent;
+}
+.card-img-top
+{
+    width: 72px;
+    height:  72px;
+    margin-top: 10%;
+}
+.card-col
+{
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+}
+.footer .options .a
+{  
+    font-size: 110%;
+    text-align: center;
+    padding: 1% 2% 1% 2%;
+}
+.footer .options
+{
+    display:grid;
+}
+}
