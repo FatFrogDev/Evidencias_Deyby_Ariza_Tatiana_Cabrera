@@ -25,6 +25,7 @@ CREATE TABLE `bolsillo` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
+alter table usuario add unique (idUsuario);
 
 ALTER TABLE `bolsillo`
 ADD CONSTRAINT `FKUsuario` FOREIGN KEY (`idUsuario`) REFERENCES `usuario` (`idUsuario`);
